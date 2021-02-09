@@ -1,0 +1,20 @@
+% FigureFormat for IPSO
+% Powerpoint pp_big_12x7
+
+
+%% Name
+FigureFormatValues.selected='pp_enpolite';
+%% Figure
+FigureFormatValues.UnitsFig='centimeters';
+FigureFormatValues.SizeFig=[30 20];
+%% Axes
+FigureFormatValues.UnitsAxes='normalized'; 
+FigureFormatValues.PositionAxes=[0.11 0.16 0.86 0.77];
+FigureFormatValues.LineWidth=1.2;
+FigureFormatValues.FontName='Arial';
+FigureFormatValues.FontSize=16;
+FigureFormatValues.XMinorTick='on';
+FigureFormatValues.YMinorTick='on';
+%% Legend
+FigureFormatValues.LegendFontSize = 12;
+FigureFormatValues.LegendLocation = 'Northeast';

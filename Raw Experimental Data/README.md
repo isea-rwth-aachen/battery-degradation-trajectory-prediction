@@ -2,6 +2,10 @@
 
 The raw dataset consists of the data from initial characterization tests (multi-pulse test, capacity test with various C-rates, qOCV test), cycling ageing tests (high-resolution data of current, voltage, capacity, energy and temperature) and regular characterization tests (multi-pulse test, capacity test with various C-rates and qOCV test).
 
+## Data download
+
+The link for downloading the raw dataset will be updated soon.
+
 ## Data structure
 
 The data of each test can be found in each mat file under diga.daten.

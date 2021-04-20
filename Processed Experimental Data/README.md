@@ -8,4 +8,4 @@ Basic ploting code
 Main ploting code for extracting the data from P001
 
 # Contact
-Philipp Dechent: philipp.dechent@isea.rwth-aachen.de
+For the questions regarding the processed experimental data, please contact Philipp Dechent at philipp.dechent@isea.rwth-aachen.de.

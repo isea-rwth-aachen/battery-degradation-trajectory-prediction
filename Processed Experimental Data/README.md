@@ -6,3 +6,6 @@ Basic ploting code
 
 # Matlab code
 Main ploting code for extracting the data from P001
+
+# Contact
+Philipp Dechent: philipp.dechent@isea.rwth-aachen.de

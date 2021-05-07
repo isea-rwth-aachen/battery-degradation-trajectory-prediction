@@ -4,7 +4,7 @@ The raw dataset consists of the data from initial characterization tests (multi-
 
 ## Data download
 
-The link for downloading the raw dataset will be updated soon.
+https://doi.org/10.18154/RWTH-2021-04545
 
 ## Data structure
 

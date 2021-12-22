@@ -1,4 +1,4 @@
-# One-shot battery degradation trajectory prediction with deep learning
+# Battery degradation prediction datasets & codes at ISEA, RWTH Aachen University
 
 # Introduction
 The data and code in this repository associated with the research work at ISEA, RWTH Aachen University in battery degradation prediction.

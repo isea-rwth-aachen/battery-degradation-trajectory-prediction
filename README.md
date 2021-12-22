@@ -1,4 +1,4 @@
-# Battery degradation prediction datasets & codes at ISEA, RWTH Aachen University
+# Battery degradation prediction datasets & codes at ISEA, RWTH Aachen
 
 # Introduction
 The data and code in this repository associated with the research work at ISEA, RWTH Aachen University in battery degradation prediction.

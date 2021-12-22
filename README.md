@@ -9,8 +9,11 @@ The raw dataset consists of the data from initial characterization tests (multi-
 # Processed Experimental Data
 The processed dataset extracted the most important data from the raw dataset and consists of analyzsed data of 48 cells during ageing tests, and the change of cell capaicty, resistances at different frequency domains and temperature during ageing are provided. Furthermore, the matlab codes to extract the metrics from the dataset are provided.
 
-# Code
-The capacity degradation dataset used in the paper together with the code regarding preprocessing for deep learning. For access to the modeling code, please contact Weihan Li at weihan.li@isea.rwth-aachen.de for the academic license.
+# Pre-processing Codes
+The capacity degradation dataset and resistance increase dataset together with the code regarding preprocessing for deep learning.
+
+# Modeling Codes
+The codes for the multi-task learning and single-task learning in battery capacity and power degradation prediction.
 
 # Contact
 Weihan Li weihan.li@isea.rwth-aachen.de

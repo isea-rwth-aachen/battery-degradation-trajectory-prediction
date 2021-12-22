@@ -1,7 +1,7 @@
 # One-shot battery degradation trajectory prediction with deep learning
 
 # Introduction
-The data and code in this repository associated with the paper ['One-shot battery degradation trajectory prediction with deep learning'](https://authors.elsevier.com/sd/article/S0378-7753(21)00552-8) by W. Li, N. Sengupta, P. Dechent, D. Howey, A. Annaswamy, and D. U. Sauer.
+The data and code in this repository associated with the research work at ISEA, RWTH Aachen University in battery degradation prediction.
 
 # Raw Experimental Data
 The raw dataset consists of the data from initial characterization tests (multi-pulse test, capacity test with various C-rates, qOCV test, electrochemical impedance spectroscopy at different temperatures), cycling ageing tests (high-resolution data of current, voltage, capacity, energy and temperature) and regular characterization tests (multi-pulse test, capacity test with various C-rates and qOCV test).

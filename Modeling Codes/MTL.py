@@ -174,6 +174,8 @@ model.layers[19].trainable=True
 model.layers[21].trainable=True
 model.layers[23].trainable=True
 #train model for stage 1
+#sometimes need load checkpoint because the local best solution may not be the best solution for remaining stages.
+#model.load_weights('capir/weight0_best.hdf5')
 model.compile(optimizer=tf.keras.optimizers.Adam(lr=1e-4),loss=CustomLoss.MaskedMAE,metrics=[],loss_weights=([0.0,1.0]))
 model.fit(x0,y0,batch_size=384,epochs=450,verbose=2,validation_data=(x1,y1),shuffle=True,callbacks=[cp_callback1,callback2])
 model.save("2CapIR2_stg1.h5")
@@ -181,7 +183,9 @@ model.save("2CapIR2_stg1.h5")
 for idx in range(len(model.layers)):
     model.layers[idx ].trainable=True
 #train model for stage 2
+#model.load_weights('capir/weight1_best.hdf5')
 model.compile(optimizer=tf.keras.optimizers.Adam(lr=1e-5),loss=CustomLoss.MaskedMAE,metrics=[],loss_weights=([1.0,1.0]))
+#model.load_weights('capir/weight2_best.hdf5')
 model.fit(x0,y0,batch_size=512,epochs=300,verbose=1,validation_data=(x1,y1),shuffle=True,callbacks=[cp_callback2,callback2])
 
 #save model
